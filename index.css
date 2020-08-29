@@ -1,3 +1,68 @@
-header {
-    display: flex;
+body {
+    margin-right: auto;
+    margin-left: auto;
+    background-color:rgba(248, 244, 244, 0.719);
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+div {
+    background-color:white;
+    padding-inline-start: 2rem;
+    padding-inline-end: 2rem;
+    grid-column: 2;
+    padding-inline-end: 4rem;
+    padding-inline-start: 4rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    box-shadow: whitesmoke;
+    box-shadow : 0 0 3px 5px rgba(0, 0, 0, 0.08653)
+}
+
+li {
+   display: inline-block;
+   padding-inline-end: 2rem;
+  
+}
+
+li a {
+text-decoration: none;
+font-size: 1rem;
+color: rgb(65, 59, 59);
+}
+
+.filmheader{
+   display:flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.date {
+padding-right: 0%;
+padding-top: 0%;
+}
+
+footer {
+   display: inline-block;
+   padding-bottom: 2rem;
+
+}
+
+.movieheader {
+   grid-column: 1/3;
+   text-align: center;
+   color:tomato;
+   font-size: 35px;
+}
+
+p {
+   font-size: 20px;
+}
+
+i {
+   color: crimson;
+   font-size: 20px;
+}
+
+b {
+   font-size: 16px;
 }
